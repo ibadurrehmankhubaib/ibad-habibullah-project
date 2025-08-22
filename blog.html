@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Univercity of USA</title>
+</head>
+<body>
+  <!--header-->
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="image/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark " onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="couse.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars " onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box scale">
+      <h1>Our Certificate & Online Programs For 2025</h1>
+    </div>
+  </section>
+  <!--BLOG-->
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="image/certificate.jpg">
+        <h2>Our Certificate & Online Programs For 2025</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque temporibus similique corrupti, dignissimos consequuntur vel deleniti voluptate quibusdam animi fuga nemo sunt amet numquam et est saepe voluptatem repellat quia.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi a reiciendis quisquam repudiandae? Enim excepturi, architecto harum, et quam eius, fugiat ab reprehenderit sit at dolor inventore doloremque. Rem, eum.</p>
+        <br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima similique doloribus, vitae, incidunt id dignissimos ad mollitia ipsa consequatur magni nam. Deleniti modi excepturi, iure reiciendis dicta eum eveniet laborum.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, dolore reiciendis eveniet, voluptas error placeat dignissimos dolorem ad ea maiores commodi impedit distinctio quasi totam mollitia similique tenetur. Eligendi, consectetur?</p>
+        <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam nemo quo libero voluptate voluptatem nostrum laboriosam enim sunt? Delectus quas dicta harum eius adipisci veritatis optio esse totam nostrum illum.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aliquid commodi eius impedit tempore eos, fugit, totam obcaecati accusamus et ex vero earum rem, odit nisi distinctio atque minus cumque.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ex nemo, explicabo, in magni, doloribus delectus nesciunt laudantium fugiat ratione laboriosam molestiae earum deleniti recusandae a dolore facilis temporibus vitae?
+        </p>
+        <br>
+        <p>
+        Ducimus reprehenderit deleniti et aperiam a architecto impedit optio temporibus cum dolores repudiandae velit vitae fugiat neque unde amet consectetur libero voluptas tempora iusto incidunt suscipit, nobis eveniet? Sit, nesciunt?</p>
+        <br>
+        <br>
+        <div class="comment-box">
+          <h3>Leave a Comment</h3>
+          <form class="comment-form">
+            <input type="text" placeholder="Enter Your Name">
+            <input type="email" placeholder="Enter E-mail">
+            <textarea rows="5" placeholder="Your Comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">Post Comment</button>
+          </form>
+        </div>
+
+
+
+      </div>
+      <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+         <div>
+          <span>Data Science</span>
+          <span>28</span>
+        </div>
+         <div>
+          <span>Machine Learning</span>
+          <span>15</span>
+        </div>
+         <div>
+          <span>Computer Science</span>
+          <span>34</span>
+        </div>
+         <div>
+          <span>AutoCAD</span>
+          <span>42</span>
+        </div>
+         <div>
+          <span>Journalist</span>
+          <span>22</span>
+        </div>
+         <div>
+          <span>Commerce</span>
+          <span>30</span>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!--FOOTER-->
+ <section class="footer">
+  <h4>About us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ad a  laboriosam perspiciatis illum distinctio ipsum, est<br> minima eum natus assumenda! Earum veritatis sequi ducimus quisquam.</p>
+  <div class="icons">
+    <i class="fa-brands fa-square-facebook"></i>
+    <i class="fa-brands fa-square-twitter"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-square-whatsapp"></i>
+    <i class="fa-brands fa-square-youtube"></i>
+  </div>
+  <p>Made With <i class="fa-regular fa-heart"></i> By<span class="span"> Shaikh Ibad And Habibullah</span></i></p>
+ </section>
+  <!--JAVA SCRIPT-->
+  <script>
+    var navlinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>

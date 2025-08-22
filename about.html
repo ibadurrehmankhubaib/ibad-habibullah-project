@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Univercity of USA</title>
+</head>
+<body>
+  <!--header-->
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="image/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark " onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="couse.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars " onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>About US</h1>
+    </div>
+  </section>
+  <!--about us contant -->
+  <section class="about-us">
+   <div class="about-col">
+    <h1>We Are The World's Largest University</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quis neque! Facere aperiam sapiente similique saepe ipsum blanditiis fugit. Perferendis quibusdam quisquam unde eligendi ut sit iste pariatur obcaecati deserunt?</p>
+    <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+   </div> 
+   <div class="about-col">
+    <img src="image/about.jpg">
+   </div> 
+  </section>
+ <!--FOOTER-->
+ <section class="footer">
+  <h4>About us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ad a  laboriosam perspiciatis illum distinctio ipsum, est<br> minima eum natus assumenda! Earum veritatis sequi ducimus quisquam.</p>
+  <div class="icons">
+    <i class="fa-brands fa-square-facebook"></i>
+    <i class="fa-brands fa-square-twitter"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-square-whatsapp"></i>
+    <i class="fa-brands fa-square-youtube"></i>
+  </div>
+  <p>Made With <i class="fa-regular fa-heart"></i> By<span> Shaikh Ibad And Habibullah</span></i></p>
+ </section>
+  <!--JAVA SCRIPT-->
+  <script>
+    var navlinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
