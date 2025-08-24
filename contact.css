@@ -420,7 +420,9 @@ nav .fa-solid{
     .sub-header h1 {
         font-size: 32px;
     }
-    
+     .nav-links ul li{
+        display: block;
+    }
     .nav-links {
         position: absolute;
         background: #f44336;
@@ -524,3 +526,4 @@ nav .fa-solid{
   font-size: 20px;
 
 }
+
