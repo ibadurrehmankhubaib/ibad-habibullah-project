@@ -422,7 +422,7 @@ nav .fa-solid{
     }
     
     .nav-links {
-        position: fixed;
+        position: absolute;
         background: #f44336;
         height: 100vh;
         width: 200px;
@@ -430,7 +430,7 @@ nav .fa-solid{
         right: -200px;
         text-align: left;
         z-index: 2;
-        transition: right 0.5s;
+        transition: right 0.5s
     }
     
     nav .fa-solid {
@@ -522,4 +522,5 @@ nav .fa-solid{
 .span{
   color: #f44336;
   font-size: 20px;
+
 }
